@@ -21,6 +21,6 @@ app.get('/', (req, res) => {
 // https.createServer(httpsOptions, app).listen(8080, () => {
 //     console.log('Listening on https://localhost:8080');
 // });
-app.listen(8080, () => {
+app.listen(80, () => {
     console.log('Listening on http://localhost:8080');
 })
